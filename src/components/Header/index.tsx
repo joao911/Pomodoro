@@ -16,7 +16,7 @@ const Header: React.FC = () => {
         <NavLink
           to="/"
           title="Timer"
-          className={`w-12 h-12 flex justify-center items-center border-x-0 border-transparent hover:border-b-[3px] hover:border-green-500 ${
+          className={`flex  w-12 items-center justify-center border-x-0 border-transparent hover:border-b-[3px] hover:border-green-500  h-12${
             location.pathname === "/" ? "text-green-500" : "text-gray-100"
           }`}
         >
@@ -25,7 +25,7 @@ const Header: React.FC = () => {
         <NavLink
           to="history"
           title="Histórico"
-          className={`w-12 h-12 flex justify-center items-center border-x-0 border-transparent hover:border-b-[3px] hover:border-green-500 ${
+          className={`flex h-12 w-12 items-center justify-center border-x-0 border-transparent hover:border-b-[3px] hover:border-green-500  flex${
             location.pathname === "/history"
               ? "text-green-500"
               : "text-gray-100"

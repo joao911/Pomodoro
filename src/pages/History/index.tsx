@@ -38,8 +38,11 @@ const History: React.FC = () => {
               <td className="bg-gray-700 border-t-4 border-t-gray-800 p-4 text-[0.875rem] leading-[1.6] text-gray-300">
                 há 2 meses{" "}
               </td>
-              <td className="bg-gray-700 border-t-4 border-t-gray-800 p-4 text-[0.875rem] leading-[1.6] pr-6 text-gray-300">
-                Concluído
+              <td className="bg-gray-700 border-t-4 border-t-gray-800 p-4 text-[0.875rem] leading-[1.6] pr-6 text-gray-300 ">
+                <div className="flex  items-center gap-2">
+                  <div className="h-2 w-2 rounded-full bg-green-500" />
+                  Concluído
+                </div>
               </td>
             </tr>
           </tbody>
